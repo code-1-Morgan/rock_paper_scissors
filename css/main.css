@@ -1,0 +1,96 @@
+html{
+    font-size: 62.5%;
+    font-family: 'Monda', sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    background: #58626E;
+}
+
+main{
+    margin: 20px 25%;
+    padding: 10px 6% 30px 6%;
+    background: #314657;
+    color: #fff4de;
+    text-align: center;
+    box-shadow: 2px 2px 18px #424242;
+}
+
+h1{
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin: 0px;
+}
+
+p{
+    font-size: 1.6rem;
+}
+
+.middleRow{
+    display: flex;
+    justify-content: space-around;
+}
+
+table{
+    table-layout:fixed;
+    border-collapse: collapse;
+    background: #58626E;
+    color:#fff4de;
+    margin-top: 50px;
+}
+
+td{
+    border: 2px solid #CCA152;
+    font-weight: 700;
+    font-size: 1.6rem;
+}
+
+th{
+    border: 2px solid #CCA152;
+    font-size: 1.6rem;
+}
+
+caption{
+    font-size: 2rem;
+    font-weight: 700;
+    border: 2px solid #CCA152;
+    padding: 10px 25px;
+    background: #58626E;
+}
+
+h2{
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.buttonSection{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+button{
+    background: #CCA152;
+    color: #314657;
+    font-weight: 700;
+    font-size: 1.6rem;
+    border: none;
+    border-radius: 4px;
+    margin: 4px;
+    flex-basis: 100%;
+    padding: 10px 10% 10px 10%;
+}
+
+.bottomText{
+    font-size: 2rem;
+    margin-top: 30px;
+    padding: 10px 0px 10px 0px;
+    background: #fff4de;
+    color:#314657;
+    height: 8rem;
+    border: 2px solid #CCA152;
+}
+
+#status{
+    font-weight: 700;
+}
